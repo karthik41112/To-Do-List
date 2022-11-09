@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>To-Do List</h1>
+    <table class="table" border="2">
+        <thead>
+            <tr class="row">
+                <th class="id">ID</th>
+                <th class="task">Task</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row" id="t1">
+                <td class="id">0</td>
+                <td class="task">No Task</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <br><br>
+
+
+    <label for="add">
+        <h2>Add Task :</h2>
+    </label>
+    <div>
+        <input type="text" class="text" name="taskAdd" id="add">
+    </div>
+    <div class="button">
+        <button class="addBut but">ADD</button>
+    </div>
+
+    <br><br>
+    <div>
+        <label for="edit">
+            <h2>Update Task:</h2>
+        </label>
+        <div>
+            <label for="idt">ID number :</label>
+            <input type="number" name="" id="idt">
+        </div>
+        <br>
+        <div>
+            <input type="text" class="text" name="taskedit" id="edit">
+        </div>
+        <div class="button">
+            <button class="up but">Update</button>
+            <button class="del but">Delete</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
